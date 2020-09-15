@@ -10,8 +10,7 @@
 
 @implementation TKFlowImageCell
 
-- (instancetype)initWithFrame:(CGRect)frame
-{
+- (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         _imageView = [[UIImageView alloc] init];
